@@ -1,0 +1,15 @@
+
+# macOS
+.DS_Store
+.Trash/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.env
+.ipynb_checkpoints/
