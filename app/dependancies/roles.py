@@ -11,4 +11,5 @@ def require_role(required_role: UserRole):
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail="Permissions insuffisantes",
             )
+        return current_user
         return checker
