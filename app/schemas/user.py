@@ -11,6 +11,10 @@ class UserBase(BaseModel):
     email: EmailStr
 
 
+class UserRoleUpdate(BaseModel):
+    role: UserRole
+
+
 class UserCreate(UserBase):
     password: str
 
